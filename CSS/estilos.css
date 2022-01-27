@@ -1,11 +1,12 @@
 h2{
-    color: white;
+    color: black;
 }
 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -14,6 +15,8 @@ html{
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    scrollbar-base-color: cadetblue;
+    background-image: linear-gradient(180deg, #4d4d4d 0%, #3a3a3a 100%);
 }
 section{
     height: 650px;
@@ -41,20 +44,105 @@ section a{
     text-align:center;
     border: 1px solid #0000;
     border-radius: 50px;
-    background: white;
+    background: pink;
 }
 
 section img{
     height: 60%;
 }
 
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
 
-section:nth-child(3){
-    background-image: linear-gradient(15deg, #dbdbdb 0%, #c9c9c9 100%);
+  ::-webkit-scrollbar-track {
+    background: #18181B;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #aeffae;
+    border-radius: 10px;
+  }
+
+.categorias{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    color: black;
 }
-section:nth-child(2){
-    background-image: linear-gradient(120deg, #b9b9b9 0%, #979797 100%);
+
+.categorias_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
-section:nth-child(1){
-    background-image: linear-gradient(to top, #4d4d4d 0%, #4d4d4d 100%);
+
+.catergorias_nav_a{
+    text-decoration: none;
+    outline: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+    background-color: #aeffae;
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+}
+
+.contenedor_imagen{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera_nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecera_nav a{
+    text-decoration: none;
+    outline: none;    
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.cabecera_nav a:hover{  
+    color: black;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
