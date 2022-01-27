@@ -1,6 +1,7 @@
 h2{
     color: white;
 }
+
 *{
     margin: 0%;
     padding: 0%;
@@ -49,11 +50,11 @@ section img{
 
 
 section:nth-child(3){
-    background-image: linear-gradient(15deg, #ff9a9e 0%, #fad0c4 100%);
+    background-image: linear-gradient(15deg, #dbdbdb 0%, #c9c9c9 100%);
 }
 section:nth-child(2){
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(120deg, #b9b9b9 0%, #979797 100%);
 }
 section:nth-child(1){
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #4d4d4d 0%, #4d4d4d 100%);
 }
