@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
  
-/* Logotipo */
+
  
 .cabecera-barra h1{
     float: left;
@@ -21,7 +21,7 @@
     color: #bc40df;
 }
  
-/* barra 1*/
+
  
 .cabecera-barra .cabecera-barra-1{
     background-color:#292c2f;
@@ -64,7 +64,7 @@
 }
  
  
-/* Barra 2*/
+
  
 .cabecera-barra .cabecera-barra-2 {
     background-color: #ffffff;
@@ -105,7 +105,7 @@
 }
  
  
-/*  Hacemos responsive la cabecera usted podrá adicionar mas propiedades para diferentes dispositivos solo se ha usado dos para este demo . */
+
  
 @media all and (max-width: 800px) {
  
