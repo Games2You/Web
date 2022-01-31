@@ -6,7 +6,7 @@ nav a{
       }
             
 nav li{
-      display:flex;
+      display:inline-block;
       width:150px;
       height:30px;
       padding:5px 10px;
