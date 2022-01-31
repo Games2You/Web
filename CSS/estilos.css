@@ -1,30 +1,33 @@
-.menu{
+/* menu desplegable */
 
-}
-
-.menu li{
-  border: 1px solid greenyellow;
-  width: 100px;
-  float: left;
-  margin-left: 10px;
-}
-
-.menu li a{
-   display: block;
-   width: 100px;
-   height: 30px;
-   border: 1px solid gray;
-   text-decoration: none;
-   overflow: hidden;
-}
-
-.menu li ul li{
-    display: inline !important;
-}
-
-.menu li ul li a{
-    margin-left: -40px;
-}
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
 
 h2{
     color: black;
