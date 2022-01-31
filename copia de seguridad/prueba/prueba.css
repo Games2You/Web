@@ -1,0 +1,19 @@
+.navegacion{
+    width: 1000px;
+    margin: 30px;
+    background: gray;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+}
