@@ -10,55 +10,56 @@
     <link href="CSS/estilos.css" rel="stylesheet" type="text/css"
     href="CSS/estilos.css">
 </head>
-<body>
-    <header class="cabecera" id="cabecera">
-                <div class="contenedor_imagen">
-                    <img class="imagen"src="/images/logocabecera.png" alt="">
-                </div>
-                <nav class="cabecera_nav">
-                    <a href="#">Inicio</a>
-                    <a href="#" class="activo">Noticias</a>
-                    <a href="#">Videojuegos</a>
-                    <a href="#">Informática</a>
-                </nav>
-</header>
-<!--Cabecera 2-->
-    <div class="categorias">
-        <nav class="categorias_nav">
-            <a href=""class="catergorias_nav_a">League of Legends</a>
-            <a href="#"class="catergorias_nav_a">World of Warcraft</a>
-            <a href="#"class="catergorias_nav_a">Valorant</a>
-            <a href="#"class="catergorias_nav_a">Lost Ark</a>
-        </nav>
+<header>
+    <div class="logo">
+        <img src="/images/logocabecera.png" alt="dasdasdsa">
     </div>
-
+     <nav class="main-nav">
+        <ul class="menu" id="menu">    <li class="menu_item container-submenu">
+            <a href="" class="menu_link submenu-btn">Noticias <i class="fas fa-chevron-down"></i></a>
+             <ul class="submenu">
+                <li class="menu_item"><a href="https://www.esportmaniacos.com/esports/" class="menu_link">eSports</a></li>
+                <li class="menu_item"><a href="https://www.esportmaniacos.com/comunidad/" class="menu_link">Comunidad</a></li>
+                <li class="menu_item"><a href="https://www.esportmaniacos.com/business/" class="menu_link">Business</a></li>
+        </ul>
+    </li>
+         <li class="menu_item container-submenu">
+            <a href="" class="menu_link submenu-btn">Videojuegos <i class="fas fa-chevron-down"></i></a>
+             <ul class="submenu">
+                <li class="menu_item"><a href="https://www.envy-lostark.com" class="menu_link">Lost Ark</a></li>
+                <li class="menu_item"><a href="https://worldofwarcraft.com/es-es/" class="menu_link">World of Warcraft</a></li>
+                <li class="menu_item"><a href="https://www.leagueoflegends.com/es-es/" class="menu_link">League of Legends</a></li>
+                <li class="menu_item"><a href="https://heroesofthestorm.com/es-es/" class="menu_link">Heroes of the Storm</a></li>
+        </ul>
+    </li>
+    <li class="menu_item container-submenu">
+        <a href="" class="menu_link submenu-btn">Guias <i class="fas fa-chevron-down"></i></a>
+         <ul class="submenu">
+            <li class="menu_item"><a href="https://www.icy-veins.com/wow/" class="menu_link">World of Warcraft</a></li>
+            <li class="menu_item"><a href="https://vandal.elespanol.com/guias/guia-monster-hunter-rise-trucos-consejos-y-secretos" class="menu_link">Monster Hunter Rise</a></li>
+            <li class="menu_item"><a href="https://www.icy-veins.com/heroes/" class="menu_link">Heroes of the Storm</a></li>
+            </ul>
+        <li class="menu_item"><a href="#" class="menu_link">Tecnologia</a></l>
+    </nav>
+</header>
+<body>
     <section class="sec1"id="sec1">
         <div class="contenedor-texto">
-            <h2>Section 1</h2>
-            <p>Prueba de textopo,o,o</p>
             <a href="#sec2">Section 2</a>
         </div>
-            <img src="images/logocabecera.png" width="400" height="500" />
     </section>
 
     <section class="sec2" id="sec2">
         <div class="contenedor-texto">
-            <h2>Section 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eius!</p>
             <a href="#sec3">Section 3</a>
         </div>
-        <img src="images/logocabecera.png" width="400" height="500" />
 
     </section>
 
     <section class="sec3"id="sec3">
         <div class="contenedor-texto">
-            <h2>Section 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eius!</p>
-            <a href="#cabecera">Section 1</a>
+            <a href="#">Section 1</a>
         </div>
-        <img src="images/logocabecera.png" width="400" height="500" />
-
     </section>
 </body>
 </html>
