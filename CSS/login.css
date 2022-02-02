@@ -9,6 +9,7 @@ body {
 }
 
 .login-box{
+  border-radius: 5%;
     width: 320px;
     height: 420px;
     background-image: linear-gradient(#ffffff, #aaaaaa);
@@ -84,4 +85,27 @@ body {
   
   .login-box a:hover {
     color: #fff;
+  }
+
+  .flecha{
+    width: 80px;
+    height: 80px;
+    justify-content: left;
+    display: flex;
+    overflow: visible;
+  }
+
+  .login_inicio{
+    cursor: pointer;
+    color: #283773;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+      padding: 5px 0;
+      text-decoration: none;
+      width: 200px;
+      text-align:center;
+      border: 1px solid #0000;
+      border-radius: 70px;
+      background: rgb(8, 207, 114);
   }
