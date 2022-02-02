@@ -189,6 +189,18 @@ a:hover{
     background: rgb(8, 207, 114);
     }
 
+    .boton_registro{
+    display: inline-block;
+    padding: 7px 0;
+    color: #283773;
+    text-decoration: none;
+    width: 100px;
+    text-align:center;
+    border: 1px solid #0000;
+    border-radius: 50px;
+    background: rgb(8, 207, 114);
+    }
+
     .header{
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -223,6 +235,13 @@ a:hover{
     .contenedor_login{
         display:flex;
         justify-content: center;
-        margin-left:px;
+        margin-left:20px;
+        grid-area: login;
+    }
+
+    .contenedor_registro{
+        display:flex;
+        justify-content: center;
+        margin-left:20px;
         grid-area: login;
     }
