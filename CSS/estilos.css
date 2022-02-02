@@ -223,6 +223,6 @@ a:hover{
     .contenedor_login{
         display:flex;
         justify-content: center;
-        margin-left:20px;
+        margin-left:px;
         grid-area: login;
     }
