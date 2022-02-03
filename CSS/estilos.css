@@ -214,7 +214,7 @@ a:hover{
         grid-area: logo;
     }
 
-    .contenedor_menu{
+    .contenedor_manu{
         display: flex;
         justify-content: space-around;
         align-items: center;
