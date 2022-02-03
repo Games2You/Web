@@ -11,7 +11,7 @@ body {
 .recuperacion-box{
   border-radius: 5%;
     width: 320px;
-    height: 420px;
+    height: 350px;
     background-image: linear-gradient(#ffffff, #aaaaaa);
     color: black;
     top: 50%;
@@ -105,7 +105,7 @@ body {
       text-decoration: none;
       width: 200px;
       text-align:center;
-      border: 1px solid #0000;
-      border-radius: 70px;
-      background: rgb(8, 207, 114);
+      border: 0px solid #0000;
+      border-radius: 50px;
+      background-image: linear-gradient(45deg, #00ffbffd, #4fe98d)
   }
