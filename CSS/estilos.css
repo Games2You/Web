@@ -118,7 +118,7 @@ a:hover{
 
 .menu_link{
     display: block;
-    padding: 19px;
+    padding: 13px;
     color: white;
     font-size: 1.2em;
     text-decoration: none;
@@ -161,6 +161,7 @@ a:hover{
         z-index: 1000;
         opacity: 0;
         visibility: hidden;
+        justify-content: space-around
     }
     .container-submenu:hover .submenu{
         opacity: 1;
