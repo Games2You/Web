@@ -10,6 +10,46 @@
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 <body>
+   <!--AVISO DE COOKIES-->
+    <div id="div-cookies" style="display: none;">
+        Necesitamos usar cookies para que funcione todo correctamente. Si permanece aquí acepta su uso.
+        <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+        y
+        <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+        <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+            Aceptar uso de cookies
+        </button>
+        </div>
+    </div>
+    <style>
+    #div-cookies {
+        position: fixed;
+        bottom: 8px;
+        left: 20px;
+        width: 97%;
+        background: rgb(8, 207, 114);
+        box-shadow: 0px -5px 15px black;
+        border-radius: 20px;
+        padding: 13px;
+        text-align: center;
+        z-index: 99;
+    }
+    </style>
+    <script>
+    function checkAcceptCookies() {
+        if (localStorage.acceptCookies == 'true') {
+        } else {
+            $('#div-cookies').show();
+        }
+    }
+    function acceptCookies() {
+        localStorage.acceptCookies = 'true';
+        $('#div-cookies').hide();
+    }
+    $(document).ready(function() {
+        checkAcceptCookies();
+    });
+    </script>     
     <!--Header-->
     <header class="header">
         <div class="contenedor_imagen">
@@ -81,45 +121,6 @@
         </div>
         
     </section>
-    <!--AVISO DE COOKIES-->
-    <div id="div-cookies" style="display: none;">
-        Necesitamos usar cookies para que funcione todo correctamente. Si permanece aquí acepta su uso.
-        <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
-        y
-        <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
-        <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
-            Aceptar uso de cookies
-        </button>
-        </div>
-    </div>
-    <style>
-    #div-cookies {
-        position: fixed;
-        bottom: 8px;
-        left: 20px;
-        width: 97%;
-        background: rgb(8, 207, 114);
-        box-shadow: 0px -5px 15px black;
-        border-radius: 20px;
-        padding: 13px;
-        text-align: left;
-        z-index: 99;
-    }
-    </style>
-    <script>
-    function checkAcceptCookies() {
-        if (localStorage.acceptCookies == 'true') {
-        } else {
-            $('#div-cookies').show();
-        }
-    }
-    function acceptCookies() {
-        localStorage.acceptCookies = 'true';
-        $('#div-cookies').hide();
-    }
-    $(document).ready(function() {
-        checkAcceptCookies();
-    });
-    </script>    
+    
 </body>
 </html>
