@@ -7,6 +7,7 @@
     <title>Games2You</title>
     <link rel="icon" href="/images/logoventana.png">
     <link href="CSS/estilos.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 <body>
     <!--Header-->
@@ -43,7 +44,7 @@
                    </ul>
                <li class="menu_item"><a href="#" class="menu_link">Tecnologia</a></l>
            </nav>
-    <!--Botón de logn-->      
+    <!--Botón de login-->      
     </div>
     <div class="contenedor_login">
     <li class="boton_login"><a href="CSS/login.html" class="boton_login">LOGIN</a></l>
@@ -63,19 +64,6 @@
            Noticias con nuevos lanzamientos, MMORPGs, juegos free-to-play, anuncios y todo tipo de noticias y novedades.
            Resumen con las noticias y actualidad más destacada de la pasada semana.</p></font size>
 </section>
-    <section class="sec1"id="sec1">
-        <div class="video">
-            <div align="center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iOhHlvpdrdY" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="video_text">
-           <h1><p>EL SEMANAL DE MMORPG</p></h1>
-           <font size="1"></font><p>Resumen con las noticias y actualidad más destacada de la pasada semana.
-               Noticias con nuevos lanzamientos, MMORPGs, juegos free-to-play, anuncios y todo tipo de noticias y novedades.
-               Resumen con las noticias y actualidad más destacada de la pasada semana.</p></font size>
-    </section>
     <section class="sec2" id="sec2">
         <div class="video2">
             <div align="center">
@@ -93,5 +81,45 @@
         </div>
         
     </section>
+    <!--AVISO DE COOKIES-->
+    <div id="div-cookies" style="display: none;">
+        Necesitamos usar cookies para que funcione todo correctamente. Si permanece aquí acepta su uso.
+        <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+        y
+        <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+        <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+            Aceptar uso de cookies
+        </button>
+        </div>
+    </div>
+    <style>
+    #div-cookies {
+        position: fixed;
+        bottom: 8px;
+        left: 20px;
+        width: 97%;
+        background: rgb(8, 207, 114);
+        box-shadow: 0px -5px 15px black;
+        border-radius: 20px;
+        padding: 13px;
+        text-align: left;
+        z-index: 99;
+    }
+    </style>
+    <script>
+    function checkAcceptCookies() {
+        if (localStorage.acceptCookies == 'true') {
+        } else {
+            $('#div-cookies').show();
+        }
+    }
+    function acceptCookies() {
+        localStorage.acceptCookies = 'true';
+        $('#div-cookies').hide();
+    }
+    $(document).ready(function() {
+        checkAcceptCookies();
+    });
+    </script>    
 </body>
 </html>
