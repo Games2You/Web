@@ -106,7 +106,7 @@ a:hover{
 .menu, .submenu{
     list-style: none;
     padding: 0%;
-    margin: 0%;
+    margin: 0px;
 }
 
 .menu{
@@ -120,13 +120,13 @@ a:hover{
     display: block;
     padding: 13px;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: none;
 }
 
 .menu_link:hover{
     background: #aeffae;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 .submenu .menu_link:hover{
     background: #aeffae;
@@ -134,7 +134,7 @@ a:hover{
 .submenu{
     height: 0%;
     overflow: hidden;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .submenu .menu_link{
     background: #18181B;
@@ -165,19 +165,19 @@ a:hover{
     }
     .container-submenu:hover .submenu{
         opacity: 1;
-        visibility: visible;}
+        visibility: visible;
     }
 
     .boton_login{
     display: inline-block;
-    padding: 2px 0;
+    padding: 3px 0;
     color: #ffffff;
     text-decoration: none;
     width: 100px;
-    text-align:center;
+    text-align: center;
     border: 0px solid #0000;
-    border-radius: 80px;
-    background-image: linear-gradient(45deg, #47f09bfd, #09ac4a);
+    border-radius: 8px;
+    background-image: linear-gradient(15deg, #13f383fd, #0bda61);
     }
 
     .boton_registro{
