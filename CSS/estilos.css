@@ -192,18 +192,51 @@ a:hover{
     }
     
     .video-contenedor{
-        margin-left: 280px;
-        opacity: 20%;
+        margin-left: 70%;
+        margin-top: 24%;
+        top: 100px;
+        opacity: 35%;
     }
     .video-text{
         z-index: 2;
     }
     .video-text h1{
-        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
         margin-bottom: 0;
-        color:#0bda61;
+        color: white;
         margin: 180px;
-        margin-top: -150px;
+        margin-top: -55px;
+        
     }
 
-    
+    .video-text h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        right: 600px;
+        position: absolute;
+        bottom: 350px;
+        right: 550px;
+        color: #0bda61;
+    }
+
+    .video-text p{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        text-align: center;
+        margin-right: 300px;
+        top: 350px;
+    }
+
+    .caja-video{
+        border: solid #09ac4a;
+        border-radius: 0.7%;
+        width: 902px;
+        height: 383px;
+        position: absolute;
+        right: 225px;
+        top: 165px;
+        
+        
+    }
