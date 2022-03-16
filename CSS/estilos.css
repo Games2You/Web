@@ -146,6 +146,27 @@ a:hover{
         visibility: visible;
     }
 
+    #noticias{
+        display: flex;
+    }
+
+    .noticiawow{
+        margin-top: 85px;
+        width: 100%;
+        background-color:#0bda61;
+    }
+    
+    .noticiawow p{
+        text-align: center;
+    }
+
+    .noticiawow h1{
+        text-align: center;
+    }
+
+    .noticiawow a{
+        text-align: center;
+    }
     .boton_login{
     display: inline-block;
     padding: 3px 0;
