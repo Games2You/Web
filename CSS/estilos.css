@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500");
-h2{
-    color: black;
-}
+
 
 *{
     margin: 0%;
@@ -32,8 +30,6 @@ h2{
     .colum3{
         margin-top: 40px;
     }
-}
-
 }
 
 html{
@@ -146,27 +142,65 @@ a:hover{
         visibility: visible;
     }
 
-    #noticias{
+    /*SECCIONES*/
+
+    section{
+        height: 250px;
         display: flex;
+        margin: 50px;
+        padding: 20px;
+        align-items: center;
     }
 
-    .noticiawow{
-        margin-top: 85px;
-        width: 100%;
-        background-color:#0bda61;
+    .noticialeakwow{
+        text-align: center;
+    }
+
+
+    section h1{
+        color:#0bda61;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section p{
+        color: white;
+        font-size: large;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .fotoleakwow{
+        border: solid #09ac4a;
+        border-radius: 7px;
+        border-width: 4px;
+    }
+
+    .noticiaea {
+        border: solid #09ac4a;
+        border-radius: 7px;
+        border-width: 4px;
+    }
+    section a{
+        font-size: 17px;
+        display: relative;
+        padding: 7px;
+        text-decoration: none;
+        width: 100px;
+        border: 2px solid #09ac4a;
+        text-align: center;
     }
     
-    .noticiawow p{
-        text-align: center;
+    section img{
+        height: auto;
+        width: 400px;
     }
 
-    .noticiawow h1{
-        text-align: center;
-    }
 
-    .noticiawow a{
-        text-align: center;
-    }
+    /*FIN SECCIONES*/
+
+    /*LOGIN*/
+
     .boton_login{
     display: inline-block;
     padding: 3px 0;
