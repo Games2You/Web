@@ -195,7 +195,49 @@ a:hover{
         height: auto;
         width: 400px;
     }
+    .main{
+        width: 900px;
+        height: 300px;
+        margin: auto;
+        margin-top: 80px;
+    }
+    video{
+        width: 100%;
+        border: solid #0bda61;
+        border-radius:20px;
+        border-width: 4px;
+    }
 
+    .textovideo{
+        text-align: center;
+    }
+
+    .separador{
+        align-items: center;
+        display: relative;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto
+    }
+    hr{
+        border-width:4px;
+        border-radius: 20px;
+        border-color:#0bda61;
+        width:80%;
+    }
+    h2{
+        color: #0bda61;
+        display: relative;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 38%;
+        margin-top: -70px;
+        margin-bottom: 1px;
+        font-size: 70px;
+    }
+    .separador
+    
 
     /*FIN SECCIONES*/
 
