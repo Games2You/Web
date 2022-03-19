@@ -33,7 +33,7 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 body{
@@ -147,7 +147,7 @@ a:hover{
     section{
         height: 250px;
         display: flex;
-        margin: 50px;
+        margin: 5px;
         padding: 20px;
         align-items: center;
     }
@@ -161,13 +161,14 @@ a:hover{
         color:#0bda61;
         font-size: 20px;
         text-align: center;
+        margin: -10px;
     }
 
     section p{
         color: white;
         font-size: large;
         text-align: center;
-        margin: 15px;
+        margin: 30px;
     }
 
     .fotoleakwow{
@@ -189,6 +190,7 @@ a:hover{
         width: 100px;
         border: 2px solid #09ac4a;
         text-align: center;
+        margin-top: 20px;
     }
     
     section img{
@@ -221,26 +223,40 @@ a:hover{
         display: relative;
         justify-content: center;
         margin-top: auto;
-        margin-bottom: auto
+        margin-bottom: auto;
+    }
+
+    .separador2{
+        align-items: center;
+        display: relative;
+        justify-content: center;
+        margin-top: -90px;
+    }
+
+    .separador2 hr{
+        width: 70%;
     }
 
     hr{
         border-width:4px;
-        border-radius: 20px;
+        border-radius: 10px;
         border-color:#0bda61;
-        width:80%;
+        width: 87%;
+    }
+
+    .noticias{
+        text-align: center;
+        
     }
 
     h2{
         color: #0bda61;
         display: relative;
-        justify-content: center;
-        align-items: center;
         align-content: center;
-        margin: 38%;
-        margin-top: -70px;
+        margin: auto;
+        margin-top: -100px;
         margin-bottom: 1px;
-        font-size: 70px;
+        font-size: 80px;
     }
     
     /*FIN SEPARADOR*/
@@ -289,11 +305,11 @@ a:hover{
     .logotipocabecera{
         width: 75%;
         height: auto;
-        padding: 15px;
+        padding: 55px;
     }
 
     .contenedor_imagen{
-        display: flex;
+        display: relative;
         justify-content: center;
         grid-area: logo;
     }
