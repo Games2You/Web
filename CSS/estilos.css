@@ -159,14 +159,14 @@ a:hover{
 
     section h1{
         color:#0bda61;
-        font-size: 20px;
+        font-size: 17.5px;
         text-align: center;
         margin: -10px;
     }
 
     section p{
         color: white;
-        font-size: large;
+        font-size: 17px;
         text-align: center;
         margin: 30px;
     }
@@ -230,18 +230,18 @@ a:hover{
         align-items: center;
         display: relative;
         justify-content: center;
-        margin-top: -90px;
+        margin-top: -115px;
     }
 
     .separador2 hr{
-        width: 70%;
+        width: 50%;
     }
 
     hr{
         border-width:4px;
         border-radius: 10px;
-        border-color:#0bda61;
-        width: 87%;
+        border-color: linear-gradient(15deg, #13f383fd, #0bda61);
+        width: 72%;
     }
 
     .noticias{
@@ -256,7 +256,7 @@ a:hover{
         margin: auto;
         margin-top: -100px;
         margin-bottom: 1px;
-        font-size: 80px;
+        font-size: 60px;
     }
     
     /*FIN SEPARADOR*/
@@ -305,7 +305,7 @@ a:hover{
     .logotipocabecera{
         width: 75%;
         height: auto;
-        padding: 55px;
+        padding: 25px;
     }
 
     .contenedor_imagen{
